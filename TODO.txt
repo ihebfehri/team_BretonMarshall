@@ -1,10 +1,10 @@
 Tools : Github, Java, Junit
 Prepare environment : Done
-Step 1 Story board : Draft done > need a clean version
+Step 1 Story board : done
 Step 2 Story board : Draft done > need a clean version
 Design pattern : Iterator
 POO concept : SOLID, UML
-What's SOLID 
+What's SOLID : http://blog.xebia.fr/2011/07/18/les-principes-solid/
 chose model : UML
 Dispatch ressources 
 3 branches for github as if we are 3 on the project.
