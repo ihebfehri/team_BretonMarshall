@@ -13,3 +13,18 @@ show to client
 implement 
 step 2
 presentation
+
+
+
+____________________________
+3 collections:
+Step 1: Create 3 collections.
+Array, ArrayList, txt+ Parsing
+3 github branches
+
+_____________________________
+Step 2:
+UML configuration
+implement Design Pattern ITERATOR in each class
+Create a graphic user interface to unify all 3.
+Add new values?
