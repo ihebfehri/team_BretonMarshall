@@ -6,11 +6,12 @@ Design pattern : Iterator
 POO concept : SOLID, UML
 What's SOLID 
 chose model : UML
-Make UML
 Dispatch ressources 
+3 branches for github as if we are 3 on the project.
 make step 1
 show to client
-implement 
+Make UML
+implement pattern
 step 2
 presentation
 
