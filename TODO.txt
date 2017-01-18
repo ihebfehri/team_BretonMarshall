@@ -15,7 +15,8 @@ implement pattern
 step 2
 presentation
 
-
+Presentation link
+link: goo.gl/TyrPAO
 
 ____________________________
 3 collections:
