@@ -1,13 +1,14 @@
-Tools
-Prepare environment
-Step 1 Story board
-Step 2 Story board
-Design pattern
-5 POO concept 
-What's SOLID
-chose models
-Dispatch ressources
+Tools : Github, Java, Junit
+Prepare environment : Done
+Step 1 Story board : Draft done > need a clean version
+Step 2 Story board : Draft done > need a clean version
+Design pattern : Iterator
+5 POO concept : SOLID, UML
+What's SOLID 
+chose models : UML
+Dispatch ressources 
 make step 1
 show to client
+implement 
 step 2
 presentation
