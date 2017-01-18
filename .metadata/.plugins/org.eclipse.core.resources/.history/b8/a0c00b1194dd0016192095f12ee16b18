@@ -1,0 +1,18 @@
+
+public class Movie {
+
+	private String title;
+	private String mainActor;
+	private String director;
+	private String year;
+	
+	public Movie(String title, String mainActor, String director, String year)
+	{
+		this.title = title;
+		this.mainActor = mainActor;
+		this.director = director;
+		this.year = year;
+	}
+	
+	
+}
