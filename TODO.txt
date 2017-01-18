@@ -1,0 +1,13 @@
+Tools
+Prepare environment
+Step 1 Story board
+Step 2 Story board
+Design pattern
+5 POO concept 
+What's SOLID
+chose models
+Dispatch ressources
+make step 1
+show to client
+step 2
+presentation
