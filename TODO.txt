@@ -1,7 +1,7 @@
 Tools : Github, Java, Junit
 Prepare environment : Done
 Step 1 Story board : done
-Step 2 Story board : Draft done > need a clean version
+Step 2 Story board : done
 Design pattern : Iterator
 POO concept : SOLID, UML
 What's SOLID : http://blog.xebia.fr/2011/07/18/les-principes-solid/
