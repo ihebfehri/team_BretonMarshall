@@ -1,0 +1,12 @@
+
+public class Main {
+
+	  public static void main(String[] args)
+	  {
+		  Movie django = new Movie("Django Unchained", "", "toto", "toto");
+		  Movie strange = new Movie("toto", "toto", "toto", "toto");
+		  Movie moana = new Movie("toto", "toto", "toto", "toto");
+		  Movie leonidas = new Movie("toto", "toto", "toto", "toto");
+		  Movie  nowyousee= new Movie("toto", "toto", "toto", "toto");
+	  }
+}
