@@ -1,3 +1,4 @@
+
 public class Movie {
 
 	private String title;
@@ -32,13 +33,4 @@ public class Movie {
 	{
 		return this.year;
 	}
-
-	public void setTitle(String title) { this.title = title; }
-
-	public void setMainActor(String mainActor) { this.mainActor = mainActor; }
-
-	public void setDirector(String director) { this.director = director; }
-
-	public void setYear(String year) { this.year = year; }
 }
-
