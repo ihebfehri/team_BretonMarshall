@@ -11,5 +11,12 @@ public class Main {
 		  Movie leonidas = new Movie("300", "Gerard Butler", "Zack Snyder", "2006");
 		  Movie nowyousee = new Movie("Nox You See Me", "Jesse Eisenberg", "Louis Leterrier", "2013");
 		  
+		  library.add(django);
+		  library.add(strange);
+		  library.add(moana);
+		  library.add(leonidas);
+		  library.add(nowyousee);
+		  
+		  library.print();
 	  }
 }
