@@ -1,7 +1,7 @@
 import java.util.Enumeration;
 import java.util.Hashtable;
 
-public class FilmLibrary {
+public class HashTableLibrary {
 
 		   private Hashtable<String, Movie> ht = new Hashtable<String, Movie>();
 		   
