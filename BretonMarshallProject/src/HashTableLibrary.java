@@ -1,5 +1,4 @@
-import java.util.Enumeration;
-import java.util.Hashtable;
+import java.util.*;
 
 public class HashTableLibrary {
 
@@ -19,4 +18,10 @@ public class HashTableLibrary {
 			      System.out.println(m.getTitle() + " " + m.getMainActor() + " " + m.getDirector() + " " + m.getYear());
 			    }
 		   }
+
+	public Iterator<Movie> getLibrary()
+	{
+		Collection<Movie> content= ht.values();
+		return content.iterator();
+	}
 }

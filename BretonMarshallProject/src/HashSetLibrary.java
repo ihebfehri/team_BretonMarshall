@@ -16,4 +16,9 @@ public class HashSetLibrary {
             System.out.println(movie.getTitle() + ' ' + movie.getMainActor() + ' ' + movie.getDirector() + ' ' + movie.getYear());
         }
     }
+
+    public Iterator<Movie> getLibrary()
+    {
+        return hs.iterator();
+    }
 }

@@ -8,7 +8,7 @@ public class ArrayListCollection {
 	  // go get objects from Movie objects list
 
 
-	public void addToArrayList (Movie m) {
+	public void addToArrayList(Movie m) {
 		arrayListColl.add(m);
 
 		/*Add element at the given index
@@ -20,9 +20,18 @@ public class ArrayListCollection {
 		arrayListColl.remove(m);
 	}
 
-	public void displayArrayList() {
-		/* Displaying array list elements */
-		System.out.println("Currently the array list has following elements:"+arrayListColl);
+
+	public void print()
+	{
+		for(int i = 0; i < arrayListColl.size(); i++)
+		{
+			System.out.println(arrayListColl.get(i).getTitle() + ' ' + arrayListColl.get(i).getMainActor() + ' ' + arrayListColl.get(i).getDirector() + ' ' + arrayListColl.get(i).getYear());
+		}
+	}
+
+	public Iterator<Movie> getLibrary()
+	{
+        return arrayListColl.iterator();
 	}
 }
 

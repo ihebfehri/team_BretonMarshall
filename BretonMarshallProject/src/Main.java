@@ -18,7 +18,7 @@ public class Main {
           al.addToArrayList(m4);
           al.addToArrayList(m5);
 
-          al.displayArrayList();
+          al.print();
 		  Movie django = new Movie("Django Unchained", "Jamie Foxx", "Tarantino", "2013");
 		  Movie strange = new Movie("Dr Strange", "Benedict Cumberbatch", "Scott Derrickson", "2016");
 		  Movie moana = new Movie("Moana", "Auli'i Cravalho", "John Musker", "2016");
