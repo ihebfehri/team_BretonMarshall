@@ -1,10 +1,10 @@
-
 public class Main {
 
 	  public static void main(String[] args)
 	  {
 		  HashSetLibrary library = new HashSetLibrary();
           ArrayListCollection al = new ArrayListCollection();
+		  UniversalCollector uc = new UniversalCollector();
 
           Movie m = new Movie("99F","Jean Dujardin","Franc Beighbeder", "2007");
           Movie m2 = new Movie("Cube","David Hewlet","Vincenzo Natali", "1997");
@@ -12,13 +12,6 @@ public class Main {
           Movie m4 = new Movie("Irreversible","Vincent Cassel","Gaspard Noe", "2002");
           Movie m5 = new Movie("Nymphomaniac","Stacy Martin","Lars Von Trier", "1997");
 
-          al.addToArrayList(m2);
-          al.addToArrayList(m);
-          al.addToArrayList(m3);
-          al.addToArrayList(m4);
-          al.addToArrayList(m5);
-
-          al.print();
 		  Movie django = new Movie("Django Unchained", "Jamie Foxx", "Tarantino", "2013");
 		  Movie strange = new Movie("Dr Strange", "Benedict Cumberbatch", "Scott Derrickson", "2016");
 		  Movie moana = new Movie("Moana", "Auli'i Cravalho", "John Musker", "2016");
@@ -30,5 +23,18 @@ public class Main {
 		  library.add(moana);
 		  library.add(leonidas);
 		  library.add(nowyousee);
+
+          al.addToArrayList(m2);
+          al.addToArrayList(m);
+          al.addToArrayList(m3);
+          al.addToArrayList(m4);
+          al.addToArrayList(m5);
+
+		  uc.addLbrary(al.getLibrary());
+		  uc.addLbrary(library.getLibrary());
+
+          Window win = new Window();
+
+		  uc.printConsole();
 	  }
 }

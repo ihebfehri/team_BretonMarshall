@@ -8,7 +8,7 @@ public class HashSetLibrary {
         hs.add(movie);
     }
 
-    public void print() {
+    public void printConsole() {
         Iterator<Movie> it = hs.iterator();
         Movie movie;
         while (it.hasNext()) {

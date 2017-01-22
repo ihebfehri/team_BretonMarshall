@@ -9,7 +9,7 @@ public class HashTableLibrary {
 			   ht.put(m.getTitle(), m);
 		   }
 		   
-		   public void print()
+		   public void printConsole()
 		   {
 			    Enumeration<Movie> e = ht.elements();
 			    while(e.hasMoreElements())

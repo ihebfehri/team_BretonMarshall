@@ -21,7 +21,7 @@ public class ArrayListCollection {
 	}
 
 
-	public void print()
+	public void printConsole()
 	{
 		for(int i = 0; i < arrayListColl.size(); i++)
 		{

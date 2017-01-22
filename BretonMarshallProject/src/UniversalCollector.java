@@ -6,7 +6,7 @@ public class UniversalCollector {
 
     private ArrayList<Movie> al = new ArrayList<Movie>();
 
-    public void print()
+    public void printConsole()
     {
         for(int i = 0; i < al.size(); i++)
         {
@@ -20,5 +20,4 @@ public class UniversalCollector {
             al.add(it.next());
         }
     }
-
 }
