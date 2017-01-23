@@ -3,7 +3,7 @@ import java.util.*;
 public class ArrayListCollection {
        /*Creation of ArrayList: I'm going to add String
        *elements so I made it of string type */
-	  private ArrayList<Movie> arrayListColl = new ArrayList<Movie>();
+	  private ArrayList<Movie> arrayListColl = new ArrayList<>();
 
 	  // go get objects from Movie objects list
 
@@ -25,7 +25,7 @@ public class ArrayListCollection {
 	{
 		for(int i = 0; i < arrayListColl.size(); i++)
 		{
-			System.out.println(arrayListColl.get(i).getTitle() + ' ' + arrayListColl.get(i).getMainActor() + ' ' + arrayListColl.get(i).getDirector() + ' ' + arrayListColl.get(i).getYear());
+			System.out.println(arrayListColl.get(i).getTitle() + ". Main Actor " + arrayListColl.get(i).getMainActor() + ". Director " + arrayListColl.get(i).getDirector() + ". Year " + arrayListColl.get(i).getYear());
 		}
 	}
 

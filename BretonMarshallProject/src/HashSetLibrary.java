@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 public class HashSetLibrary {
-    private HashSet<Movie> hs = new HashSet<Movie>();
+    private HashSet<Movie> hs = new HashSet<>();
 
     public void add(Movie movie) {
         hs.add(movie);
@@ -13,7 +13,7 @@ public class HashSetLibrary {
         Movie movie;
         while (it.hasNext()) {
             movie = it.next();
-            System.out.println(movie.getTitle() + ' ' + movie.getMainActor() + ' ' + movie.getDirector() + ' ' + movie.getYear());
+            System.out.println(movie.getTitle() + ". Main Actor : " + movie.getMainActor() + ". Director : " + movie.getDirector() + ". Year : " + movie.getYear());
         }
     }
 

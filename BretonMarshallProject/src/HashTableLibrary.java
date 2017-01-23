@@ -2,9 +2,9 @@ import java.util.*;
 
 public class HashTableLibrary {
 
-		   private Hashtable<String, Movie> ht = new Hashtable<String, Movie>();
+		   private Hashtable<String, Movie> ht = new Hashtable<>();
 		   
-		   public void addMovie(Movie m)
+		   public void add(Movie m)
 		   {
 			   ht.put(m.getTitle(), m);
 		   }
@@ -15,7 +15,7 @@ public class HashTableLibrary {
 			    while(e.hasMoreElements())
 			    {
 			      Movie m =e.nextElement();
-			      System.out.println(m.getTitle() + " " + m.getMainActor() + " " + m.getDirector() + " " + m.getYear());
+			      System.out.println(m.getTitle() + ". Main actor : " + m.getMainActor() + ". Director : " + m.getDirector() + ". Year : " + m.getYear());
 			    }
 		   }
 
